@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente di background</title>
+    <style>
+        body {
+            background: linear-gradient(to top, #050022, #7ED856);
+            height: 100vh; /* Assicura che il body prenda tutta l'altezza della finestra */
+            margin: 0;
+        }
+        .blocchi {
+            transition: transform 1.4s;
+        }
+        .blocchi:hover {
+            transform: scale(1.01);
+            cursor: pointer;
+        }
+        .card {
+            background-color: #4cfd0000;
+        }
+        .azzurro {
+            background-color: #02a8d2;
+        }
+        .footer {
+            background-color: #07002b;
+        }
+    </style>
+</head>
+<body>
+    <div class="blocchi">Blocchi</div>
+    <div class="card">Card</div>
+    <div class="azzurro">Azzurro</div>
+    <div class="footer">Footer</div>
+</body>
+</html>

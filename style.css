@@ -1,0 +1,24 @@
+.blocchi{
+    transition: transform 1.4s;
+}
+.blocchi:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.card{
+    background-color: #4cfd0000;
+}
+.azzurro{
+    background-color: #02a9d286;
+    background: linear-gradient(to right, #0E0255, #02a9d286);
+}
+/* 
+#0E0255 blue
+#7ED856 green
+ */
+body{
+    background: linear-gradient(to bottom, #120270, #208e04);
+}
+.footer{
+    background-color: #07002b
+}
