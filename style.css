@@ -3,7 +3,6 @@
 }
 .blocchi:hover{
     transform: scale(1.01);
-    cursor: pointer;
 }
 .card{
     background-color: #4cfd0000;
@@ -16,9 +15,15 @@
 #0E0255 blue
 #7ED856 green
  */
+.body-efountain{
+    background: linear-gradient(to bottom, #120270, #1c8801);
+}
 body{
-    background: linear-gradient(to bottom, #120270, #208e04);
+    background: linear-gradient(to bottom, #120270, #0E0255);
 }
 .footer{
     background-color: #07002b
+}
+hr{
+    background: linear-gradient(to left, #0E0255, #02a9d286);
 }
